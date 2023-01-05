@@ -1,0 +1,38 @@
+.sponsor{
+    margin-top: 80px;
+}
+
+.sponsor-title h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 38px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.sponsor-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.sponsor-logo-img {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 40px;
+}
+
+.sponsor-logo-img img{
+    border: 1px solid #263238;
+    border-radius: 10px;
+    width: 199px;
+    height: 64px;
+    object-fit: scale-down;
+    transition: all 0.3s ease-in-out;
+}
+
+.sponsor-logo-img img:hover{
+    background-color: #8AD7FF;
+}
