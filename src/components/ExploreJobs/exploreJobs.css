@@ -1,0 +1,139 @@
+.explore-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 110px 50px 50px 50px;
+    background-color: #BEF4FF;
+    border-radius: 20px;
+}
+
+.explore-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.explore-title h1{
+  font-size: 40px;
+  font-weight: bold;
+  color: #2B313F;
+  margin: 50px 0 20px 0;
+}
+
+.explore-title p{
+  font-size: 20px;
+  font-weight: 400;
+  color: #2B313F;
+  margin: 0;
+  width: 55%;
+  text-align: center;
+}
+
+.explore-column{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.explore-column-item{
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 25px;
+  margin: 60px;
+}
+
+.header-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px;
+}
+
+.header-item i{
+  font-size: 20px;
+  color: #B0B0B0;
+}
+
+.header-item h4{
+  display: flex;
+  font-size: 14px;
+  font-weight: 400;
+  color: #B0B0B0;
+}
+
+.header-item .fulltime-item{
+  display: flex;
+  background-color: #7bffb0b5;
+  border-radius: 4px;
+  padding: 7px 15px;
+  font-size: 10px;
+  font-weight: 500;
+  color: #23DC05;
+}
+
+.body-item{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 20px 0 120px 0;
+}
+
+.body-item h3{
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+}
+
+.company-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.company-logo img{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
+.text-company{
+  margin: 0 30px;
+}
+
+.text-company h4{
+  font-size: 15px;
+  font-weight: 600;
+  color: #000;
+}
+
+.text-company p{
+  font-size: 12px;
+  font-weight: 600;
+  color: #B0B0B0;
+}
+
+.btn-exploreMore{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 150px;
+}
+
+.btn-exploreMore button{
+  background-color: #263238;
+  color: #8AD7FF;
+  border: none;
+  font-size: 23px;
+  font-weight: 700;
+  padding: 15px 50px;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.btn-exploreMore button:hover{
+  background-color: #fff;
+  color: #263238;
+  border: 2px solid #263238;
+}

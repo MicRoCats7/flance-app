@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo-form {
+    margin-left: 40px;
+    margin-top: 37px;
+}
+
+.form-login {
+    display: flex;
+    align-items: center;
+    margin: 45px 155px 77px 98px;
+}
+
+.gambar-form {
+    /* width: 100%; */
+    width: 555px;
+    /* height: auto; */
+    height: 817px;
+}
+
+.form-kanan {
+    display: flex;
+    flex-direction: column;
+}
+
+.con-form-kanan {
+    display: flex;
+    flex-direction: column;
+    margin-left: 77px;
+}
+
+.title-form {
+    font-size: 45px;
+    color: #2B313F;
+    font-weight: bold;
+    margin-bottom: 23px;
+}
+
+.text-form {
+    color: #2B313F;
+    font-size: 20px;
+    margin-bottom: 23px;
+}
+
+.link-text-form {
+    color: #1FB3FF;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.ket1,
+.ket2,
+.ket3,
+.ket4 {
+    color: #2B313F;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.form-email {
+    margin-bottom: 26px;
+}
+
+.form-password {
+    margin-bottom: 28px;
+}
+
+.form-needs {
+    margin-bottom: 28px;
+}
+
+.form-email,
+.form-password,
+.form-needs {
+    width: 555px;
+    height: 66px;
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 10px;
+}
+
+.btn-form {
+    background: #32B9FF;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    border-radius: 20px;
+    max-width: 165px;
+    padding: 23px 5px;
+    border-color: #32B9FF;
+    cursor: pointer;
+}
+
+.btn-form:hover {
+    border: 2px solid #32B9FF;
+    background: none;
+    color: #32B9FF;
+    transition: .2s;
+}
+
+/*  */
+
+.con-radio {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+    grid-auto-rows: 6rem;
+    align-items: center;
+    gap: 17px;
+}
+
+.radio1,
+.radio2 {
+    display: flex;
+    padding: 22px 0 22px 26px;
+    border: 1px solid #2B313F;
+    border-radius: 10px;
+}
+
+.ket-radio2,
+.ket-radio1 {
+    margin-left: 20px;
+    font-size: 20px;
+    color: #2B313F;
+    font-weight: 600;
+}
+
+input[type=radio]#Seller, #Freelancer {
+    border: 0px;
+    width: 10%;
+    height: 2em;
+    accent-color: #2B313F;
+}

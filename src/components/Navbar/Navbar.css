@@ -1,6 +1,6 @@
 .NavbarItems{
     background: #fff;
-    height: 120px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +22,7 @@
     justify-content: center;
 }
 
-.button-SL > .btn-signin{
+.button-SL a .btn-signin{
     border-radius: 50px;
     background: #2B313F;
     padding: 8px 30px;
@@ -37,7 +37,7 @@
     margin: 0 0.5rem;
 }
 
-.button-SL > .btn-login{
+.button-SL a .btn-login{
     border-radius: 50px;
     background: #fff;
     padding: 8px 30px;
@@ -52,14 +52,14 @@
     margin: 0 0.5rem;
 }
 
-.button-SL > .btn-signin:hover{
+.button-SL a .btn-signin:hover{
     transition: all 0.2s ease-in-out;
     background: #8AD7FF;
     border: 3px solid #8AD7FF;
     color: #2B313F;
 }
 
-.button-SL > .btn-login:hover{
+.button-SL a .btn-login:hover{
     transition: all 0.2s ease-in-out;
     border: 3px solid #8AD7FF;
     color: #8AD7FF;
